@@ -1,0 +1,12 @@
+{
+  "name": "state-management-redux-without-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sullivan Osmond <osmond@tiket.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "4.7.2",
+    "redux": "3.7.2",
+    "sass-loader": "6.0.6"
+  }
+}
