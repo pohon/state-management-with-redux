@@ -14,16 +14,16 @@ const VideoWrapper = (store) => {
     // };
 
     // update duration
-    videoEl.addEventListener('loadedmetadata', () => {
+    // videoEl.addEventListener('loadedmetadata', () => {
+    //     debugger;
+    //     console.log('LOADEDMETADATA!');
 
-        console.log('LOADEDMETADATA!');
-
-        if (videoEl.readyState > 0) {
+    //     if (videoEl.readyState > 0) {
             
-            store.dispatch(Actions.updateDuration(getTimeStamp(videoEl.duration)));
-        }
+    //         store.dispatch(Actions.updateDuration(getTimeStamp(videoEl.duration)));
+    //     }
 
-    });
+    // });
 
     // event listener tiap state berubah > ganti DOM src
     // javascript biasa
